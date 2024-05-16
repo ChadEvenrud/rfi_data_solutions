@@ -131,6 +131,7 @@ header {
 }
 
 .title_icons {
+  color: var(--on-background);
 }
 
 /* media queries */
