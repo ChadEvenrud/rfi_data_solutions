@@ -8,23 +8,33 @@
 
   <body>
     <!-- Navigation -->
-    <div class="nav_wrapper">
-      <div class="nav_menu">
+    <div class="nav-wrapper">
+      <div class="menu-icon">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
       </div>
+      <div id="logo_scroll">
+        <h3>RFI Data Solutions</h3>
+      </div>
       <nav id="nav">
-        <ul class="nav_list">
-          <a href="">About</a>
-          <a href="">Services</a>
-          <a href="">Contact</a>
+        <ul>
+          <li><a href="#" onclick="hideNav()">Home</a></li>
+          <li><a href="#" onclick="hideNav()">About</a></li>
+          <li><a href="#" onclick="hideNav()">Services</a></li>
+          <li><a href="#" onclick="hideNav()">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <section id="section1" class="them_switcher">
-      <p>Theme Switcher</p>
+    <!-- Section 1 -->
+    <section id="section-1">
+      <!-- Dark Mode Switch -->
+      <div id="theme-switcher" class="theme-switcher">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </div>
     </section>
+    <!-- Header -->
     <header class="main_banner">
       <div class="banner_text">
         <h1>RFI Data Solutions</h1>
